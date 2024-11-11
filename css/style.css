@@ -1,0 +1,74 @@
+.carousel-inner {
+  background: url(../images/banner.jpg) no-repeat;
+  padding: 10px 0;
+}
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+}
+.carousel-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+}
+.carousel h1 {
+  background-color: #ffd700;
+  color: black;
+  padding: 10px 15px;
+  display: inline-block;
+}
+.carousel p {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.carousel .btn-order {
+  background-color: black;
+  border: 2px solid #ffd700;
+  margin-top: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 0.9em;
+}
+.card {
+  background-color: #ffc107; /* Yellow background */
+  text-align: center;
+  border: none;
+}
+.card-body {
+  background-color: yellow; /* Dark background for text */
+  color: black;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+.custom-heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.card-img-overlay .card-title,
+.card-img-overlay .card-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show title and text on hover */
+.card:hover .card-img-overlay .card-title,
+.card:hover .card-img-overlay .card-text {
+  opacity: 1;
+}
